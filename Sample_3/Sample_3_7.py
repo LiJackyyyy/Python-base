@@ -1,0 +1,15 @@
+print("1.\t", "Hellow\nPython\nGood")
+print("----------------------------")
+print("2.\t", "Hellow\tPython\tGood")
+print("----------------------------")
+print("3.\t", "Hellow\bPythonGood")
+print("----------------------------")
+print("4.\t", "HellowPython\rGood")
+print("----------------------------")
+print("5.\t", "Hellow\"Python\"Good")
+print("----------------------------")
+print("6.\t", "Hellow\'Python\'Good")
+print("----------------------------")
+print("7.\t", "Hellow\\Python\\Good")
+
+# \t tab(空白兩格)  , \n 換行 ,\b 倒退一格 ,\r刪除前面

@@ -1,0 +1,17 @@
+n = (31, 21, 54, 61, 62)
+print('Num', n)
+print('型態', type(n))
+p = ('a', 'b', 'c')
+print(type(p))
+
+print('*' * 30)
+n1 = (31,)
+n2 = (31)
+print(type(n1))
+print(type(n2))
+
+print('*' * 30)
+n1 = ()
+n2 = tuple()
+print(type(n1))
+print(type(n2))

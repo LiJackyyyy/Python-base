@@ -1,0 +1,10 @@
+a = 'coffee'
+print('1.\t', a.center(20))
+print('2.\t', a.center(20, '-'))
+print('3,\t', a.ljust(20))
+print('4,\t', a.ljust(20, '*'))
+print('5.\t', a.rjust(20))
+print('6.\t', a.rjust(20, '*'))
+print()
+print('7.\t', a.capitalize().center(20))
+print('8.\t', a.swapcase().center(20, '-'))

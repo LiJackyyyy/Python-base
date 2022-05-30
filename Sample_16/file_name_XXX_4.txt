@@ -1,0 +1,2 @@
+juice	80
+milk	70

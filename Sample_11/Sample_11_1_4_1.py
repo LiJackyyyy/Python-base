@@ -1,0 +1,12 @@
+p = {'a': 10, 'b': 90, 'c': 30, 'd': 40}
+k = p.keys()
+v = p.values()
+il = p.items()
+print('1.\t', k)
+print('2.\t', v)
+print('3.\t', il)
+print()
+print('- ' * 30)
+print('1.\t', list(k))
+print('2.\t', list(v))
+print('3.\t', list(il))

@@ -1,0 +1,10 @@
+a = frozenset(['aa', 'bb', 'cc', 'dd', 'ee', 'cc', 'dd'])
+b = frozenset(('aa', 'bb', 'cc', 'dd', 'ee', 'cc', 'dd'))
+c = frozenset({'aa', 'bb', 'cc', 'dd', 'ee', 'cc', 'dd'})
+
+print('1.\t', a)
+print('2.\t', b)
+print('3.\t', c)
+print('4.\t', type(a))
+print('5.\t', type(b))
+print('6.\t', type(c))
